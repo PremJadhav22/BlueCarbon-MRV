@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  test-network:
+    image: alpine:latest
+    command: sh -c "echo 'Fabric network would run here' && tail -f /dev/null"
+    

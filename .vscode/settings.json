@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+    "go.useLanguageServer": true,
+    "go.gopath": "C:\\Users\\YourUsername\\go",
+    "go.goroot": "C:\\Go",
+    "go.formatTool": "goimports",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
